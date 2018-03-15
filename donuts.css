@@ -1,0 +1,91 @@
+/*=====================
+Base Element Styles
+======================*/
+header{
+font-style: italic;
+font-size: 40px;
+font: bold;
+}
+
+
+h1 {
+padding-top: 0;
+position: fixed;
+}
+
+h2 {
+text-shadow: 1px 1px 10px black;
+}
+footer {
+padding:30px 0;
+background: silver;
+text-align: center;
+}
+
+/*=====================
+Base layout Styles
+======================*/
+
+.main-header{
+background-color: lightgrey;
+box-shadow: 0 1px 1px lightblue;
+padding-bottom: 5px;
+}
+
+.menu {
+  float: right;
+}
+
+.menu li {
+  float: left;
+  padding-right: 3em;
+  padding-top: 5em;
+}
+
+.banner {
+background: black;
+padding-top: 30px;
+padding-bottom: 60px;
+}
+
+.donut_country_title1 {
+color: silver;
+text-align: center;
+font-size: 50px;
+margin-left: 37%;
+}
+
+.donut_country_title2 {
+color: silver;
+text-align: center;
+font-size: 25px;
+margin-left: 40%;
+}
+
+.donuts {
+margin-left: 44%;
+display: block;
+}
+
+.col {
+float: left;
+width: 50%;
+}
+
+.primary {
+padding-right: 5px;
+box-sizing: border-box;
+}
+
+.secondary{
+
+}
+
+/*=====================
+ Media Queries
+ ======================*/
+ .clearfix::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
